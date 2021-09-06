@@ -13,7 +13,7 @@ const fetchTodos = async (event) => {
   }
   return {
     statusCode: 200,
-    body: JSON.stringify(newTodo),
+    body: JSON.stringify(todos),
   };
 };
 
