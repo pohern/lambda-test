@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/pohern/lambda-test#readme",
   "dependencies": {
+    "@middy/core": "^2.5.1",
+    "@middy/http-json-body-parser": "^2.5.1",
     "aws-sdk": "^2.983.0",
     "uuid": "^8.3.2"
   }

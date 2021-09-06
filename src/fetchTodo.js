@@ -10,7 +10,7 @@ const fetchTodo = async (event) => {
     const result = await dynamoDB
       .get({ TableName: "TodoTable", Key: { id } })
       .promise();
-    todo = result.Items;
+    todo = result.Item;
   } catch (error) {
     console.log(error);
   }
