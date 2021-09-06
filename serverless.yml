@@ -22,6 +22,12 @@ functions:
       - http:
           path: /
           method: post
+  fetchTodo:
+    handler: src/fetchTodos.handler
+    events:
+      - http:
+          path: /todos
+          method: get
 
 
 resources:
