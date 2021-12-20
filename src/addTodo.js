@@ -30,3 +30,4 @@ const addTodo = async (event) => {
 module.exports = {
   handler: middy(addTodo).use(httpJsonBodyParser())
 }
+
